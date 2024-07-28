@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <a href="/">Chirag Tiwari</a>
+      </div>
+
+      <div class="right">
+        <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github"></i>
+          <span>Github</span>
+        </a>
+
+        <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>Linkedin</span>
+        </a>
+
+        <a href="https://mail.google.com/mail">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero-section">
+        <div class="text">
+          <h2>Hi, I'm Chirag 👋</h2>
+          <p className="text-white italic text-xl">
+            I’m a front end developer, and I learned to code through
+            <span className="text-cyan-500 font-semibold">
+              CodeYogi(Software Training Institute)
+            </span>
+            . After spending all days in a week, six or more hours a day, for
+            six months learning front end development, UI design, and UX design,
+            I was ready to graduate and start working.
+          </p>
+
+          <div class="links">
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+
+            <a href="#testimony">
+              <i class="fa-solid fa-pen"></i>
+              <span>Testimony</span>
+            </a>
+
+            <a href="#contact">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="headshot">
+          <img src="images/avatar.jpeg" alt="Chirag headshot" />
+        </div>
+      </section>
+
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+          I am a passionate web developer with a strong foundation in HTML and
+          CSS, complemented by expertise in JavaScript and React. My proficiency
+          in Tailwind CSS allows me to design responsive and aesthetically
+          pleasing user interfaces efficiently. I am well-versed in using Git
+          for version control, ensuring seamless collaboration and code
+          management. Additionally, I have experience with Redux for state
+          management in complex applications. Currently, I am expanding my skill
+          set by learning Node.js and back-end development to become a more
+          versatile developer and create full-stack applications.
+        </div>
+
+        <div class="cells">
+          <div class="cell">
+            <img src="images/html-logo.webp" alt="html logo" />
+            <span>HTML</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/css-logo.webp" alt="css logo" />
+            <span>CSS</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/javascript-logo.webp" alt="javascript logo" />
+            <span>JavaScript</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/node-logo.webp" alt="node logo" />
+            <span>Node.js</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/react-logo.webp" alt="react logo" />
+            <span>React.js</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimony" class="testimony-section">
+        <h2>Testimony</h2>
+
+        <div class="group">
+          <div class="person-details">
+            <img src="images/Designer.png" />
+            <p>Chirag Tiwari</p>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+
+          <div class="text">
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor,
+            sint repudiandae ratione exercitationem saepe distinctio cumque
+            quaerat nostrum laborum? Rem adipisci natus eos nemo reprehenderit,
+            cumque nostrum enim commodi. Eum, enim vero eveniet doloremque sed
+            veniam. Doloremque explicabo non reprehenderit expedita! Accusamus
+            mollitia repellendus dolorum officiis libero quod deleniti cum."
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+
+        <div class="group">
+          <div class="text" class="contact-info">
+            I’d love to hear from you! Whether you have a question about my
+            projects, want to discuss potential collaborations, or just want to
+            say hello, feel free to reach out. You can contact me via email or
+            connect with me on LinkedIn. I’m also active on GitHub, where you
+            can see my latest work and contributions.
+
+            <h3 class="contact-detail">Email: your.email@example.com</h3>
+            <h3 class="contact-detail">
+              LinkedIn: linkedin.com/in/yourprofile
+            </h3>
+            <h3 class="contact-detail">GitHub: github.com/yourusername</h3>
+
+            Looking forward to connecting with you!
+          </div>
+
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+
+            <label for="message">Message</label>
+            <textarea id="message" cols="30" rows="10"></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
